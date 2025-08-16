@@ -1,0 +1,14 @@
+{
+  "domain": "leneda",
+  "name": "Luxembourg Lenada Energy Integration",
+  "codeowners": ["@fuatakgun","@fedus"],
+  "config_flow": true,
+  "dependencies": ["recorder"],
+  "documentation": "https://github.com/fuatakgun/lenada_custom",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "loggers": ["leneda-client"],
+  "issue_tracker": "https://github.com/fuatakgun/lenada_custom/issues",
+  "requirements": ["leneda-client==0.5.0"],
+  "version": "1.0.0"
+}
